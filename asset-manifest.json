@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactjs_monsterCards/static/css/main.5ce88f89.chunk.css",
+    "main.js": "/reactjs_monsterCards/static/js/main.a6fca4f0.chunk.js",
+    "main.js.map": "/reactjs_monsterCards/static/js/main.a6fca4f0.chunk.js.map",
+    "runtime-main.js": "/reactjs_monsterCards/static/js/runtime-main.99c0f48f.js",
+    "runtime-main.js.map": "/reactjs_monsterCards/static/js/runtime-main.99c0f48f.js.map",
+    "static/js/2.e0c49a26.chunk.js": "/reactjs_monsterCards/static/js/2.e0c49a26.chunk.js",
+    "static/js/2.e0c49a26.chunk.js.map": "/reactjs_monsterCards/static/js/2.e0c49a26.chunk.js.map",
+    "static/js/3.3356caf3.chunk.js": "/reactjs_monsterCards/static/js/3.3356caf3.chunk.js",
+    "static/js/3.3356caf3.chunk.js.map": "/reactjs_monsterCards/static/js/3.3356caf3.chunk.js.map",
+    "index.html": "/reactjs_monsterCards/index.html",
+    "static/css/main.5ce88f89.chunk.css.map": "/reactjs_monsterCards/static/css/main.5ce88f89.chunk.css.map",
+    "static/js/2.e0c49a26.chunk.js.LICENSE.txt": "/reactjs_monsterCards/static/js/2.e0c49a26.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/reactjs_monsterCards/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c0f48f.js",
+    "static/js/2.e0c49a26.chunk.js",
+    "static/css/main.5ce88f89.chunk.css",
+    "static/js/main.a6fca4f0.chunk.js"
+  ]
+}
