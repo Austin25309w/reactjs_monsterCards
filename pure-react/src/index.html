@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">React not rendered </div>
+    <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+    <script>
+        const Person = (props) => {
+            return React.createElement("div", {}, [
+                React.createElement("h1", {}, props.name),
+                React.createElement("p", {}, props.occupations)
+            ])
+        }
+
+        class App extends React.Component {
+            render() {
+                return React.createElement("div", {}, [
+            React.createElement("h1", {}, 'React is RENDERED!!'),
+            React.createElement(Person, { name: "Austin", occupations: "developer"}),
+            React.createElement(Person, { name: "Justin", occupations: "developer"}),
+            React.createElement(Person, { name: "Oustin", occupations: "developer"})
+            ]
+            )
+            }
+        }
+        ReactDOM.render(
+            React.createElement(App), 
+            document.getElementById("root")
+            )
+    </script>
+</body>
+</html>
